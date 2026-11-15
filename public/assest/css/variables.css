@@ -1,0 +1,15 @@
+:root{
+    --primary_color: #4f46e5,
+    --secondary_color: #9fa5aa,
+
+    /* Background Color */
+    --bg_color: #f8fafc,
+    --surface_color: #ffffff,
+
+    /* Text color */
+    --text_color : #63616e,
+
+    /* Btn color */
+    --primary_btn_color : #4f46e5,
+    --primary_onBtnClick_color : #4338ca
+}
