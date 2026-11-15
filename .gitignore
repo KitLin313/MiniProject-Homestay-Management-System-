@@ -1,0 +1,25 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Agent / AI local configs
+.agents/
+
+# Environment and secrets
+.env
+.env.*
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE / Editor
+.vscode/
+.idea/
+
+# Operating System files
+Thumbs.db
+.DS_Store
+desktop.ini
