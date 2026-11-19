@@ -1,6 +1,7 @@
 @import url(font.css);
 @import url(./variables.css);
 @import url(./footer.css);
+@import url(./header.css);
 
 /* page specific css */
 
@@ -9,6 +10,7 @@ body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    background-color: #f8fafc;
 }
 
 .footer{

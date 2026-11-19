@@ -1,0 +1,94 @@
+.header{
+    font-size: 1em;
+    font-family: 'Inter', sans-serif;
+    background-color: white;
+    border-bottom: 1px solid #cbd5e1;
+    padding: 15px 20px;
+}
+
+.header_container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.brand_container{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.brand_title{
+    color: black;
+}
+
+.brand_icon{
+    font-size: 2em;
+}
+
+.nav_bar{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.nav_link{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+}
+
+.nav_link:hover{
+    background-color: #eef2ff;
+    color: #5850e7;
+}
+
+.header_actions{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.cart{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 10px;
+    color: #4f46e5;
+    background-color: #eef2ff;
+    padding: 15px;
+    border-radius: 9999px;
+    border: none;
+    font-size: 0.75em;
+    font-family: 'Inter', sans-serif;
+}
+
+.cart:hover{
+    color:white;
+    background-color: #4f46e5;
+}
+
+.profile_btn{
+    font-size: 0.75em;
+    font-family: 'Inter', sans-serif;
+    background-color: #f1f5f9;
+    border-radius: 9999px;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    transition:transfrom 0.2s ease;
+}
+
+.profile_btn:hover{
+    transform: scale(1.05);
+}
+
+.logout_btn{
+    color: red;
+    background: transparent;
+    border: none;
+}
