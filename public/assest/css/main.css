@@ -1,4 +1,16 @@
+@import url(font.css);
 @import url(./variables.css);
-
+@import url(./footer.css);
 
 /* page specific css */
+
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer{
+    margin-top: auto;
+}

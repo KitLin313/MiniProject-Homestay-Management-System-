@@ -13,3 +13,9 @@
     --primary_btn_color : #4f46e5,
     --primary_onBtnClick_color : #4338ca
 }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
